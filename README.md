@@ -16,7 +16,7 @@ npm install adstxt
 
 # Usage
 
-```
+```javascript
 const { crawl } = require('adstxt')
 
 ;(async () => {
