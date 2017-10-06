@@ -1,5 +1,5 @@
 {
-  "name": "sobel",
+  "name": "adstxt",
   "version": "0.0.1",
   "description": "Crawl website for ads.txt entries.",
   "main": "index.js",
