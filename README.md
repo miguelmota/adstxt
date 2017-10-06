@@ -1,6 +1,6 @@
 # adstxt
 
-> Crawls website for [ads.txt](https://iabtechlab.com/ads-txt/) records.
+> Crawls website for [ads.txt](https://iabtechlab.com/ads-txt/) entries.
 
 # Install
 
@@ -10,11 +10,9 @@ npm install adstxt
 
 # API
 
-- **crawl**(uri) -> Promise(array)
+- **crawl**(uri) -> Promise({object[]})
 
   - {string} uri - website domain or uri
-
-  - Returns a Promise, with an array of ads.txt entry records
 
 # Usage
 

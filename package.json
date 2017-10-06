@@ -1,7 +1,7 @@
 {
   "name": "sobel",
   "version": "0.0.1",
-  "description": "Crawl website for ads.txt records.",
+  "description": "Crawl website for ads.txt entries.",
   "main": "index.js",
   "bin": {
     "adstxt": "bin/adstxt"
