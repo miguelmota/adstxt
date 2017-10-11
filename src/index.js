@@ -59,7 +59,9 @@ async function crawl (uri) {
           entryComment
         }
 
-        result.push(entry)
+        if (adsystemDomain) {
+          result.push(entry)
+        }
       })
 
       break
